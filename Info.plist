@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_kittencam._tcp</string>
+		<string>_kittencam-video._tcp</string>
+		<string>_kittencam-talk._tcp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>KittenCam uses the camera to stream live video on your local network.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>KittenCam uses the microphone to stream live room audio and send talkback audio on your local network.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>KittenCam connects to your desktop over your local network.</string>
+</dict>
+</plist>
